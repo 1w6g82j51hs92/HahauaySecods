@@ -61,7 +61,7 @@ local Themes = {
 	
 		DropdownFrame = Color3.fromRGB(30, 30, 45),
 		DropdownHolder = Color3.fromRGB(50, 50, 70),
-		DropdownBorder = Color3.fromRGB(0, 120, 255),
+		DropdownBorder = Color3.fromRGB(55, 0, 0),
 		DropdownOption = Color3.fromRGB(0, 130, 220),
 	
 		Keybind = Color3.fromRGB(0, 100, 225),
