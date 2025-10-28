@@ -37,7 +37,7 @@ local Themes = {
 	Names = {
 		"LunaHub"
 	},
-	SpeedHubX = {
+	LunaHub = {
 		Name = "LunaHub",
 		Accent = Color3.fromRGB(128, 0, 128),  -- Purple: Adjusted Accent color
 
