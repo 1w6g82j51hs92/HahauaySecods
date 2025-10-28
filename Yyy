@@ -659,27 +659,27 @@ sectionRebirth:AddToggle("Auto Weight", {
                             LocalPlayer.muscleEvent:FireServer("rep")
                         end
                     end
-                    task.wait(0.1)
+                    task.wait(0.5)
                 end
             end)
         end
     end
 })
 
-sectionRebirth:AddToggle("Auto Size 1", {
-    Title = "Auto Set Size 1",
+sectionRebirth:AddToggle("Auto Size 2", {
+    Title = "Auto Set Size 2",
     Default = false,
     Callback = function(state)
         _G.autoSizeActive = state
         if state then
             task.spawn(function()
                 while _G.autoSizeActive and task.wait() do
-                    ReplicatedStorage.rEvents.changeSpeedSizeRemote:InvokeServer("changeSize", 0)
+                    ReplicatedStorage.rEvents.changeSpeedSizeRemote:InvokeServer("changeSize", 2)
                 end
             end)
         end
     end
-}, "Auto Set Size 1")
+}, "Auto Set Size 2")
 
 local targetPosition = CFrame.new(-8742, 121, -5858)
 sectionRebirth:AddToggle("Auto King", {
@@ -697,7 +697,7 @@ sectionRebirth:AddToggle("Auto King", {
                             hrp.CFrame = targetPosition
                         end
                     end
-                    task.wait(0.05)
+                    task.wait(0.001)
                 end
             end)
         end
@@ -705,7 +705,7 @@ sectionRebirth:AddToggle("Auto King", {
 })
 
 LocalPlayer.CharacterAdded:Connect(function(char)
-    task.wait(2)
+    task.wait(0.5)
     if _G.FastWeight then
         task.spawn(function()
             while _G.FastWeight do
@@ -722,8 +722,8 @@ LocalPlayer.CharacterAdded:Connect(function(char)
     if _G.autoSizeActive then
         task.spawn(function()
             while _G.autoSizeActive do
-                ReplicatedStorage.rEvents.changeSpeedSizeRemote:InvokeServer("changeSize", 0)
-                task.wait(0.2)
+                ReplicatedStorage.rEvents.changeSpeedSizeRemote:InvokeServer("changeSize", 2)
+                task.wait(0.05)
             end
         end)
     end
