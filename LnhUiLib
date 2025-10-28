@@ -35,11 +35,11 @@ local ProtectGui = protectgui or (syn and syn.protect_gui) or function(f) end
 
 local Themes = {
 	Names = {
-		"LunaHub"
+		"LunaHubPurple"
 	},
-	LunaHub = {
-		Name = "LunaHub",
-		Accent = Color3.fromRGB(128, 0, 128),  -- Purple: Adjusted Accent color
+	LunaHubPurple = {
+		Name = "LunaHubPurple",
+		Accent = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
 
 		AcrylicMain = Color3.fromRGB(20, 20, 30),
 		AcrylicBorder = Color3.fromRGB(40, 40, 60), 
@@ -47,24 +47,24 @@ local Themes = {
 		AcrylicNoise = 0.8,
 	
 		TitleBarLine = Color3.fromRGB(90, 90, 130),
-		Tab = Color3.fromRGB(128, 0, 128),  -- Purple: Adjusted Tab color
+		Tab = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
 	
-		Element = Color3.fromRGB(128, 0, 128),  -- Purple: Adjusted Element color
+		Element = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
 		ElementBorder = Color3.fromRGB(50, 50, 70),
 		InElementBorder = Color3.fromRGB(80, 80, 120),
 		ElementTransparency = 0.75,
 	
-		ToggleSlider = Color3.fromRGB(128, 0, 128),  -- Purple: Adjusted ToggleSlider color
+		ToggleSlider = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
 		ToggleToggled = Color3.fromRGB(255, 255, 255),
 	
 		SliderRail = Color3.fromRGB(160, 160, 200),
 	
 		DropdownFrame = Color3.fromRGB(30, 30, 45),
 		DropdownHolder = Color3.fromRGB(50, 50, 70),
-		DropdownBorder = Color3.fromRGB(128, 0, 128),  -- Purple: Adjusted DropdownBorder color
-		DropdownOption = Color3.fromRGB(128, 0, 128),  -- Purple: Adjusted DropdownOption color
+		DropdownBorder = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
+		DropdownOption = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
 	
-		Keybind = Color3.fromRGB(128, 0, 225),  -- Purple: Adjusted Keybind color
+		Keybind = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
 	
 		Input = Color3.fromRGB(180, 180, 220),
 		InputFocused = Color3.fromRGB(0, 0, 20),
@@ -72,20 +72,19 @@ local Themes = {
 	
 		Dialog = Color3.fromRGB(30, 30, 45),
 		DialogHolder = Color3.fromRGB(45, 45, 65),
-		DialogHolderLine = Color3.fromRGB(128, 0, 255),  -- Purple: Adjusted DialogHolderLine color
+		DialogHolderLine = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
 		DialogButton = Color3.fromRGB(30, 30, 45),
-		DialogButtonBorder = Color3.fromRGB(128, 0, 255),  -- Purple: Adjusted DialogButtonBorder color
+		DialogButtonBorder = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
 		DialogBorder = Color3.fromRGB(70, 70, 90),
 		DialogInput = Color3.fromRGB(40, 40, 60),
-		DialogInputLine = Color3.fromRGB(128, 0, 230),  -- Purple: Adjusted DialogInputLine color
+		DialogInputLine = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
 	
 		Text = Color3.fromRGB(240, 240, 255),
 		SubText = Color3.fromRGB(170, 170, 190),
-		Hover = Color3.fromRGB(128, 0, 230),  -- Purple: Adjusted Hover color
+		Hover = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
 		HoverChange = 0.08,
 	}    
 }
-
 
 local Library = {
 	Version = "1.5.0",
