@@ -35,11 +35,11 @@ local ProtectGui = protectgui or (syn and syn.protect_gui) or function(f) end
 
 local Themes = {
 	Names = {
-		"LunaHub"
+		"SpeedHubX"
 	},
 	SpeedHubX = {
 		Name = "SpeedHubX",
-		Accent = Color3.fromRGB(55, 0, 0),
+		Accent = Color3.fromRGB(0, 0, 255),
 
 		AcrylicMain = Color3.fromRGB(20, 20, 30),
 		AcrylicBorder = Color3.fromRGB(40, 40, 60), 
@@ -59,9 +59,9 @@ local Themes = {
 	
 		SliderRail = Color3.fromRGB(160, 160, 200),
 	
-		DropdownFrame = Color3.fromRGB(55, 0, 0),
+		DropdownFrame = Color3.fromRGB(30, 30, 45),
 		DropdownHolder = Color3.fromRGB(50, 50, 70),
-		DropdownBorder = Color3.fromRGB(55, 0, 0),
+		DropdownBorder = Color3.fromRGB(0, 120, 255),
 		DropdownOption = Color3.fromRGB(0, 130, 220),
 	
 		Keybind = Color3.fromRGB(0, 100, 225),
