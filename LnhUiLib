@@ -1,7 +1,3 @@
---[[local message = Instance.new("Message", workspace)
-message.Text = "Hello\nPlease Join Our New Server, More Updates / Supports\nDiscord: discord.gg/speedhubx (Copied)"
-setclipboard("discord.gg/speedhubx")]]
-
 local Lighting = game:GetService("Lighting")
 local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
@@ -39,7 +35,7 @@ local Themes = {
 	},
 	LunaHubPurple = {
 		Name = "LunaHubPurple",
-		Accent = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
+		Accent = Color3.fromRGB(148, 0, 211),  
 
 		AcrylicMain = Color3.fromRGB(20, 20, 30),
 		AcrylicBorder = Color3.fromRGB(40, 40, 60), 
@@ -47,24 +43,23 @@ local Themes = {
 		AcrylicNoise = 0.8,
 	
 		TitleBarLine = Color3.fromRGB(90, 90, 130),
-		Tab = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
+		Tab = Color3.fromRGB(148, 0, 211),
 	
-		Element = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
+		Element = Color3.fromRGB(148, 0, 211),  
 		ElementBorder = Color3.fromRGB(50, 50, 70),
 		InElementBorder = Color3.fromRGB(80, 80, 120),
 		ElementTransparency = 0.75,
 	
-		ToggleSlider = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
+		ToggleSlider = Color3.fromRGB(148, 0, 211),  
 		ToggleToggled = Color3.fromRGB(255, 255, 255),
 	
 		SliderRail = Color3.fromRGB(160, 160, 200),
 	
 		DropdownFrame = Color3.fromRGB(30, 30, 45),
 		DropdownHolder = Color3.fromRGB(50, 50, 70),
-		DropdownBorder = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
-		DropdownOption = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
-	
-		Keybind = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
+		DropdownBorder = Color3.fromRGB(148, 0, 211),  
+		DropdownOption = Color3.fromRGB(148, 0, 211),
+		Keybind = Color3.fromRGB(148, 0, 211),  
 	
 		Input = Color3.fromRGB(180, 180, 220),
 		InputFocused = Color3.fromRGB(0, 0, 20),
@@ -72,16 +67,16 @@ local Themes = {
 	
 		Dialog = Color3.fromRGB(30, 30, 45),
 		DialogHolder = Color3.fromRGB(45, 45, 65),
-		DialogHolderLine = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
+		DialogHolderLine = Color3.fromRGB(148, 0, 211),  
 		DialogButton = Color3.fromRGB(30, 30, 45),
-		DialogButtonBorder = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
+		DialogButtonBorder = Color3.fromRGB(148, 0, 211),  
 		DialogBorder = Color3.fromRGB(70, 70, 90),
 		DialogInput = Color3.fromRGB(40, 40, 60),
-		DialogInputLine = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
+		DialogInputLine = Color3.fromRGB(148, 0, 211),  
 	
 		Text = Color3.fromRGB(240, 240, 255),
 		SubText = Color3.fromRGB(170, 170, 190),
-		Hover = Color3.fromRGB(148, 0, 211),  -- Purple from "Remove Attack Animations"
+		Hover = Color3.fromRGB(148, 0, 211),  
 		HoverChange = 0.08,
 	}    
 }
